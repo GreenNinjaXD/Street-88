@@ -1,0 +1,158 @@
+@media(max-width:1200px) {}
+
+@media(max-width:992px) {
+    .nav {
+        justify-content: space-evenly;
+    }
+
+    .gamburger {
+        max-height: 600px;
+    }
+
+    .last {
+        justify-content: space-evenly;
+    }
+
+    .nowdays_title {
+        left: 340px;
+    }
+}
+
+@media(max-width:768px) {
+    .nav {
+        justify-content: space-around;
+    }
+
+    .gamburger_text {
+        font-size: 17px;
+    }
+
+    .gamburger_title {
+        font-size: 70px;
+    }
+
+    .btn_aftr {
+        padding: 30px 70px;
+    }
+
+    .price_btn {
+        padding: 15px 65px;
+    }
+
+    .nowdays_title {
+        left: 227.5px;
+        top: 102px;
+    }
+
+    .nowdays_text {
+        font-size: 16px;
+    }
+}
+
+@media(max-width:576px) {
+    .nav {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        padding-top: 21.5px;
+        padding-bottom: 21.5px;
+    }
+
+    .gamburger_title {
+        font-size: 55px;
+    }
+
+    .bruh {
+        align-items: center;
+        text-align: center;
+    }
+
+    .btn_shits {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .gamburger_sp {
+        margin-top: 10px;
+    }
+
+    .gamburger {
+        max-height: 550px;
+    }
+
+    .nowdays_title {
+        top: 68px;
+        left: 157.5px;
+        font-size: 45px;
+    }
+
+    .nowdays_text {
+        font-size: 15px;
+    }
+}
+
+@media(max-width:375px) {
+    .frst {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .frst_list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .nav_list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .gamburger_title {
+        font-size: 30px;
+    }
+
+    .gamburger_sp {
+        margin-top: -5px;
+        font-size: 25px;
+    }
+
+    .gamburger_text {
+        font-size: 15px;
+    }
+
+    .btn_aftr {
+        padding: 25px 45px;
+    }
+
+    .price_btn {
+        padding: 15px 45px;
+    }
+
+    .last {
+        flex-direction: column;
+        gap: 20px;
+        padding: 39px 0 27px;
+    }
+
+    .last_list {
+        padding-bottom: 20px;
+    }
+
+    .section_title {
+        font-size: 45px;
+    }
+
+    .nowdays_title{
+        font-size: 30px;
+        left: 68.5px;
+        top: 22px;
+    }
+
+    .gamburger_title{
+        font-size: 29px;
+    }
+
+    .nowdays_text{
+        font-size: 12px;
+    }
+}
